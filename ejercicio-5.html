@@ -1,0 +1,78 @@
+<!--Construir el siguiente mockup con HTML y CSS.
+Se pide además que las imágenes estén en una grilla sencilla, de columnas de 33% y las imágenes sean
+responsive.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	body{
+		margin: 0px;
+	}
+	.row{
+		clear: both;
+	}
+
+	.col-md-1, .col-md-2, .col-md-3{
+		float: left;
+	}
+
+	.col-md-1{
+		width: 33.3%;
+	}
+	.col-md-2{
+		width: 66.6%;
+	}
+	.col-md-3{
+		width: 100%;
+	}
+
+	@media(max-width: 480px){
+		  .col-md-1{
+		    width: 33.3%;
+		  }
+		  .col-md-2{
+		    width: 66.6%;
+		  }
+		  .col-md-3{
+		    width: 100%;
+		  }
+	.header{
+		color: white;
+		background-color: green;
+		text-align: center;
+		font-family: sans-serif;
+		padding: 5em;
+	}
+
+	.section{
+		margin: 20px;
+		text-align: center;
+	}
+
+	img{
+		max-width: 100%;
+	}
+
+</style>
+</head>
+<body>
+	<header class="header" class=".col-md-3"> 
+		<h1> HOLA!! ESTE ES UN EJERCICIO DE GRILLAS</h1>
+	</header>
+	<section class="section">
+		<div class="col-md-1">
+			<img src="http://lorempixel.com/400/200" />
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias tempora harum, eligendi excepturi natus ut, quas, omnis iusto et quod a at voluptas dolorem perspiciatis vero itaque fugiat. Illo, provident.</p>
+		</div>
+		<div class="col-md-1">
+			<img src="http://lorempixel.com/400/200" />
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quas qui! Ad enim accusantium, corrupti soluta consequatur delectus assumenda eaque facilis repellat doloremque nemo consectetur totam veritatis voluptates sint?</p>
+		</div>
+		<div class="col-md-1">
+			<img src="http://lorempixel.com/400/200" />
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos earum, voluptate perferendis vitae! Sapiente cupiditate vero, deleniti odio possimus incidunt hic explicabo assumenda veritatis? Expedita qui officiis, eum eligendi modi.</p>
+		</div>
+	</section>
+</body>
+</html>
