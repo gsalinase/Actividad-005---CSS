@@ -4,40 +4,21 @@ responsive.-->
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Ejercicio</title>
 <style type="text/css">
-	body{
+
+	/* Global */
+
+	body {
 		margin: 0px;
 	}
-	.row{
-		clear: both;
+
+	img {
+		max-width: 100%;
+		margin: auto;
 	}
 
-	.col-md-1, .col-md-2, .col-md-3{
-		float: left;
-	}
-
-	.col-md-1{
-		width: 33.3%;
-	}
-	.col-md-2{
-		width: 66.6%;
-	}
-	.col-md-3{
-		width: 100%;
-	}
-
-	@media(max-width: 480px){
-		  .col-md-1{
-		    width: 33.3%;
-		  }
-		  .col-md-2{
-		    width: 66.6%;
-		  }
-		  .col-md-3{
-		    width: 100%;
-		  }
-	.header{
+	.header {
 		color: white;
 		background-color: green;
 		text-align: center;
@@ -45,32 +26,51 @@ responsive.-->
 		padding: 5em;
 	}
 
-	.section{
-		margin: 20px;
+	.section {
+		margin: 2rem;
+		padding: 1rem;
 		text-align: center;
 	}
 
-	img{
-		max-width: 100%;
+	/* Grid */
+
+	.row {
+		clear: both;
+	}
+
+	.col-md-1, .col-md-2, .col-md-3 {
+		float: left;
+	}
+
+	.col-md-1 {
+		width: 33.3%;
+	}
+
+	.col-md-2 {
+		width: 66.6%;
+	}
+
+	.col-md-3 {
+		width: 100%;
 	}
 
 </style>
 </head>
 <body>
-	<header class="header" class=".col-md-3"> 
+	<header class="header" class="col-md-3">
 		<h1> HOLA!! ESTE ES UN EJERCICIO DE GRILLAS</h1>
 	</header>
 	<section class="section">
 		<div class="col-md-1">
-			<img src="http://lorempixel.com/400/200" />
+			<img src="https://source.unsplash.com/400x200/?nature">
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias tempora harum, eligendi excepturi natus ut, quas, omnis iusto et quod a at voluptas dolorem perspiciatis vero itaque fugiat. Illo, provident.</p>
 		</div>
 		<div class="col-md-1">
-			<img src="http://lorempixel.com/400/200" />
+			<img src="https://source.unsplash.com/400x200/?nature">
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quas qui! Ad enim accusantium, corrupti soluta consequatur delectus assumenda eaque facilis repellat doloremque nemo consectetur totam veritatis voluptates sint?</p>
 		</div>
 		<div class="col-md-1">
-			<img src="http://lorempixel.com/400/200" />
+			<img src="https://source.unsplash.com/400x200/?nature">
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos earum, voluptate perferendis vitae! Sapiente cupiditate vero, deleniti odio possimus incidunt hic explicabo assumenda veritatis? Expedita qui officiis, eum eligendi modi.</p>
 		</div>
 	</section>
